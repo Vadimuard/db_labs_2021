@@ -1,4 +1,5 @@
 from scrapy import cmdline
 
-cmdline.execute("scrapy crawl ukr.net".split())
 
+def crawl_ukrnet():
+    cmdline.execute("scrapy crawl ukr.net".split())

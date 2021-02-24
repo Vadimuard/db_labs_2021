@@ -15,5 +15,8 @@ class UkrNetPage(scrapy.Item):
 class RepkaItem(scrapy.Item):
     name = scrapy.Field()
     price = scrapy.Field()
-    description = scrapy.Field()
+    url = scrapy.Field()
+    description_titles = scrapy.Field()
+    description_info = scrapy.Field()
     image = scrapy.Field()
+

@@ -1,3 +1,5 @@
 from scrapy import cmdline
 
-cmdline.execute("scrapy crawl repka".split())
+
+def crawl_repka():
+    cmdline.execute("scrapy crawl repka".split())
